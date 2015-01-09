@@ -5,7 +5,7 @@
 
   function init() {
     $b.find('.card-short-id').each(function(idx, el) {
-      $(el).removeClass('hide');
+      $b.find(el).removeClass('hide');
     });
   }
 
