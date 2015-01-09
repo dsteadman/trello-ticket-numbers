@@ -1,0 +1,15 @@
+{
+  "name": "Trello Ticket Numbers",
+  "manifest_version": 2,
+  "version": "0.1",
+  "description": "Makes ticket numbers visible on Trello cards",
+  "content_scripts": [{
+    "matches": [
+      "https://trello.com/b/*"
+    ],
+    "js": [
+      "javascripts/libs/jquery.min.js",
+      "javascripts/app/application.js"
+    ]
+  }]
+}
